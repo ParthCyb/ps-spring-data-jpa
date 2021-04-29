@@ -13,7 +13,7 @@ public class HomeController {
     @Value("${app.version}")
     private String appVersion;
 
-
+//home mapping
     @GetMapping
     @RequestMapping("/")
     public Map getStatus() {
